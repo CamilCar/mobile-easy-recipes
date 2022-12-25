@@ -1,7 +1,33 @@
 /* home picture */
 
-#home-picture {
+#home-image {
     height: 600px;
     width: 100%;
     background: url('../images/home-picture.jpg');
+}
+
+/* menu links */
+
+#main-title {
+    position: center;
+    color: red;
+    left: 30%;
+}
+
+#menu {
+    font-size: 140%;
+    letter-spacing: 1px;
+}
+
+#menu li {
+    float: left;
+    padding-left: 0,5%;
+    list-style-type: none;
+    margin-right: 40px;
+    
+}
+
+#menu a {
+    text-decoration: none;
+    color: red
 }
