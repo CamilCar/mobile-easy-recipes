@@ -13,7 +13,7 @@
     font-family: Archivo;
     font-weight: bold;
     color: #fafafa;
-    text-transform: uppercase;
+  
     font-size: 48px;
     text-align: center;
 }
@@ -80,4 +80,12 @@
     width: 100%;
     height: 100%;
     background-size: contain;
+}
+
+/* footer style */
+.social-links {
+    list-style-type: none;
+    font-family: Archivo;
+    font-weight: bold;
+    padding: 10px;
 }
