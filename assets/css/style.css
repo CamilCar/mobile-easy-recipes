@@ -13,7 +13,6 @@
     font-family: Archivo;
     font-weight: bold;
     color: #fafafa;
-  
     font-size: 48px;
     text-align: center;
 }
@@ -34,7 +33,14 @@
     text-transform: uppercase;
     float: left;
     padding: 8px; 
-    
+}
+
+#all-recipe-title {
+    font-family: Archivo;
+    font-weight: bold;
+    color: #fafafa;
+    font-size: 48px;
+    text-align: center;
 }
 
 /* backgrounds and plate pictures */
@@ -52,6 +58,8 @@
     width: 100%;
     margin-top: 2%;
     background: url('../images/backgrounds/all-recipes.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 #soups_img {
