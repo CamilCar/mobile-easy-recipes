@@ -1,5 +1,6 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap'); 
+
 * {
     margin: 0;
     padding: 0;
@@ -17,9 +18,25 @@
     text-align: center;
 }
 
-/* home picture */
+#menu {
+    margin-left: 1%;
+    padding: 1px;
+}
 
-#home-image {
+#menu li, a {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 130%;
+    font-family: Archivo;
+    font-weight: bold;
+    float: left;
+    padding: 8px;
+    
+}
+
+/* home background and picture plates */
+
+#home-background {
     height: 600px;
     width: 100%;
     margin-top: 2%;
