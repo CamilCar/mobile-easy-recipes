@@ -33,15 +33,34 @@
     font-weight: bold;
     text-transform: uppercase;
     float: left;
-    padding: 8px;
+    padding: 8px; 
     
 }
 
 /* home background and picture plates */
 
+#food_plates {
+    width: 80%;
+    height: 80%;
+}
+
 #home-background {
+    overflow: hidden;
     height: 600px;
     width: 100%;
     margin-top: 2%;
     background: url('../images/home-picture.jpg');
+}
+/* set img paths */
+#soups_img {
+    background: url('../images/plates/soup-plate.png')no-repeat center center;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+   
+}
+
+.plate-styles {
+    height: 30%;
+    width: 30%;
 }
