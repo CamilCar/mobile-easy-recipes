@@ -5,9 +5,16 @@
     padding: 0;
     border: 0;
 }
+
+/* title and nav styling */ 
+
 #main-title {
     font-family: Archivo;
-    font-weight: 300;
+    font-weight: bold;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-size: 48px;
+    text-align: center;
 }
 
 /* home picture */
@@ -15,5 +22,6 @@
 #home-image {
     height: 600px;
     width: 100%;
+    margin-top: 2%;
     background: url('../images/home-picture.jpg');
 }
