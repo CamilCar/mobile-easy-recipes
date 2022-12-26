@@ -16,7 +16,14 @@
     font-size: 48px;
     text-align: center;
 }
-
+#all-recipe-title {
+    font-family: Archivo;
+    font-weight: bold;
+    color: #fafafa;
+    font-size: 48px;
+    text-align: center;
+    padding-right: 19%;
+}
 #menu {
     margin-left: 1%;
     padding: 10px;
@@ -35,13 +42,6 @@
     padding: 8px; 
 }
 
-#all-recipe-title {
-    font-family: Archivo;
-    font-weight: bold;
-    color: #fafafa;
-    font-size: 48px;
-    text-align: center;
-}
 
 /* backgrounds and plate pictures */
 
@@ -75,14 +75,14 @@
     height: 100%;
     background-size: contain;
 }
-
+/* size and position rules for plates */
 #food_plates {
     width: 100%;
     height: 100%;
-    padding-top: 5%;
+    padding-top: 2%;
 }
 .plate-styles {
-    height: 30%;
+    height: 50%;
     width: 30%;
     text-align: center;
     float: left;
