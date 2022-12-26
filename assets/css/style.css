@@ -42,6 +42,7 @@
 #food_plates {
     width: 80%;
     height: 80%;
+    padding-top: 5%;
 }
 
 #home-background {
@@ -51,16 +52,32 @@
     margin-top: 2%;
     background: url('../images/home-picture.jpg');
 }
+
+.plate-styles {
+    height: 30%;
+    width: 30%;
+    text-align: center;
+    float: left;
+}
+
+.plate-styles h2 {
+    color: rebeccapurple;
+    padding: 8px; 
+    
+
+}
+
 /* set img paths */
 #soups_img {
     background: url('../images/plates/soup-plate.png')no-repeat center center;
     width: 100%;
     height: 100%;
     background-size: contain;
-   
 }
 
-.plate-styles {
-    height: 30%;
-    width: 30%;
+#pastas_img {
+    background: url('../images/plates/pasta-plate.png')no-repeat center center;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
 }
