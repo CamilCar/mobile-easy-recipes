@@ -37,37 +37,23 @@
     
 }
 
-/* home background and picture plates */
-
-#food_plates {
-    width: 100%;
-    height: 100%;
-    padding-top: 5%;
-}
+/* backgrounds and plate pictures */
 
 #home-background {
     overflow: hidden;
     height: 350px;
     width: 100%;
     margin-top: 2%;
-    background: url('../images/home-picture.jpg');
+    background: url('../images/backgrounds/home-picture.jpg');
 }
 
-.plate-styles {
-    height: 30%;
-    width: 30%;
-    text-align: center;
-    float: left;
+#soups-background {
+    height: 350px;
+    width: 100%;
+    margin-top: 2%;
+    background: url('../images/backgrounds/soups-background.jpg');
 }
 
-.plate-styles h2 {
-    color: #fafafa;
-    padding: 8px; 
-    
-
-}
-
-/* set img paths */
 #soups_img {
     background: url('../images/plates/soup-plate.png')no-repeat center center;
     width: 100%;
@@ -82,6 +68,22 @@
     background-size: contain;
 }
 
+#food_plates {
+    width: 100%;
+    height: 100%;
+    padding-top: 5%;
+}
+.plate-styles {
+    height: 30%;
+    width: 30%;
+    text-align: center;
+    float: left;
+}
+
+.plate-styles h2 {
+    color: #fafafa;
+    padding: 8px; 
+}
 /* footer style */
 .social-links {
     list-style-type: none;
