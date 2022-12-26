@@ -47,11 +47,11 @@
     background: url('../images/backgrounds/home-picture.jpg');
 }
 
-#soups-background {
+#all-recipes-background {
     height: 350px;
     width: 100%;
     margin-top: 2%;
-    background: url('../images/backgrounds/soups-background.jpg');
+    background: url('../images/backgrounds/all-recipes.jpg');
 }
 
 #soups_img {
