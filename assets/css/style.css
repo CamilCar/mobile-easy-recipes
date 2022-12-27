@@ -74,6 +74,19 @@
     height: 100%;
     background-size: contain;
 }
+#baking_img {
+    background: url('../images/plates/baking-plate.png')no-repeat center center;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+#stews_img {
+    background: url('../images/plates/stew-plate.png')no-repeat center center;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+
 /* size and position rules for plates */
 #food_plates {
     width: 100%;
@@ -82,7 +95,7 @@
 }
 .plate-styles {
     height: 50%;
-    width: 30%;
+    width: 25%;
     text-align: center;
     float: left;
 }
@@ -100,4 +113,24 @@
     clear: both;
     height: 200px;
     margin-top: auto;
+    
 }
+
+#home-background h1{
+    color: white;
+    text-align: center;
+}
+
+.recipe-item a{
+    text-decoration: none;
+    text-align: center;
+}
+
+.recipe-item a img{
+    width: 60%;
+    margin-left: 20%;
+}
+.recipe-item a h3{
+    color: white;
+}
+  
