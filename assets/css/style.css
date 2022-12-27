@@ -98,4 +98,7 @@
     font-family: Archivo;
     font-weight: bold;
     padding: 10px;
+    clear: both;
+    height: 200px;
+    margin-top: auto;
 }

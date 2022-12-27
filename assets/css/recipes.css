@@ -3,10 +3,11 @@
 #chinese-soup-img {
     background: url('../images/each-recipe-picture/chinese-soup.jpg')no-repeat;
     display: block;
-    max-width: 70%;
+    max-width: 50%;
     height: 14px;
     padding-bottom: 39%;
     background-size: 99%;
+    
     
 }
 
@@ -36,6 +37,13 @@
     letter-spacing: .0125rem;
 }
 
+.recipe-headers_wrapper > p {
+    color: inherit;
+    max-width: 100%;
+    font-size: 20px;
+    line-height: 4.5rem;
+    letter-spacing: .0125rem;
+}
 #chinese-soup-body {
     box-sizing: border-box;
     margin: 0;
