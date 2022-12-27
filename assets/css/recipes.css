@@ -1,9 +1,13 @@
 
 /* chinese-soup img */
 #chinese-soup-img {
-    height: 300px;
-    max-width: 100%;
     background: url('../images/each-recipe-picture/chinese-soup.jpg')no-repeat;
+    display: block;
+    max-width: 70%;
+    height: 14px;
+    padding-bottom: 39%;
+    background-size: 99%;
+    
 }
 
 /* general styles for all recipes and images */ 
@@ -24,3 +28,19 @@
     padding-left: 1rem;
 }
 
+.recipe-headers_title {
+    color: #3f3f3f;
+    max-width: 100%;
+    font-size: 3rem;
+    line-height: 4.5rem;
+    letter-spacing: .0125rem;
+}
+
+#chinese-soup-body {
+    box-sizing: border-box;
+    margin: 0;
+    overflow-y: scroll;
+    width: 100%;
+    padding-top: 20px;
+}
+    
