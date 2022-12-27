@@ -7,6 +7,7 @@
     height: 14px;
     padding-bottom: 35%;
     background-size: 99%;
+    position: center;
     
 }
 
@@ -49,5 +50,27 @@
     overflow-y: scroll;
     width: 100%;
     padding-top: 20px;
+    text-align: -webkit-center;
 }
     
+.section-heading-name {
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1.75rem;
+    letter-spacing: .0125rem;
+    color: #3a3a3a;
+    padding-bottom: 2%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ingredients-list-group li {
+    list-style-type: circle;
+    list-style-position: inside;
+    color: #3a3a3a;
+    font-family: Archivo;
+    text-align: center;
+    font-size: 150%;
+    
+}
