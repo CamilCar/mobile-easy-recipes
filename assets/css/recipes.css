@@ -1,0 +1,12 @@
+.wrap-container {
+    width: 80rem;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.recipe-headers_title {
+    color: red;
+}
