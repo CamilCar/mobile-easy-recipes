@@ -146,17 +146,17 @@
 
 .form-section {
     clear: left;
-    background:url('../images/backgrounds/sign-up.jpeg');
-    background-size: cover;
+    background:url('../images/backgrounds/sign-up.jpeg') no-repeat;
+    background-size: contain;
     background-position: center;
-    height: 900px;
+    height: 635px;
 }
 .signup-form {
     margin: 150px 10% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
-    position: absolute;
+    position: inherit;
     left: 10%;
     padding: 30px;
 }
