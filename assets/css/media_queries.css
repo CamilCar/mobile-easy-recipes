@@ -5,9 +5,11 @@
     
     #all-recipes-background {
         background-position: none;
-        margin-top: 2%;
-        
+        margin-top: 3%;
+        width: 100%;
+        height: 1000px;
     }
+
     #soups, #pastas, #stews, #baking {
         width: 50%;
         height: 30%;
@@ -28,17 +30,12 @@
 
 /* for medium size screens 950px wide and down */
 @media screen and (max-width: 950px) {
-    .plate-styles {
-        column-count: 1;
-}
 
-#home-background {
-    width: 65%;
-    height: 1200px;
-    margin: 0 auto;
-}
+    #menu {
+        clear:left;
+        margin-left: 200px;
+        margin-bottom: 20px;
+        line-height:25px;
 
-#main-title {
-    color: red;
-}
+    }
 }
