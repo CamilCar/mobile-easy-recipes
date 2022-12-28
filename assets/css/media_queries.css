@@ -33,6 +33,9 @@
 
     header {
         text-align: center;
+    }
 
+    #plate-styles ul {
+        text-align: center;
     }
 }
