@@ -1,5 +1,7 @@
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap'); 
+body {
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
 
 * {
     margin: 0;
@@ -7,8 +9,25 @@
     border: 0;
 }
 
+header {
+    padding: 8px;
+    
+}
+
+header li {
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
 /* title and nav styling */ 
 
+/* #menu {
 #main-title {
     font-family: Archivo;
     font-weight: bold;
@@ -24,13 +43,12 @@
     text-align: -webkit-center;
     padding-right: 19%;
 }
-#menu {
     margin-left: 1%;
     padding: 10px;
     position:top;
-}
-
-#menu li, a {
+} 
+    
+    #menu li a {
     color: #3a3a3a;
     list-style-type: none;
     text-decoration: none;
@@ -38,9 +56,11 @@
     font-family: Archivo;
     font-weight: bold;
     text-transform: uppercase;
-    float: left;
     padding: 8px; 
 }
+*/
+
+
 
 /* backgrounds and plate pictures */
 

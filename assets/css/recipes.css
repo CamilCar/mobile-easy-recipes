@@ -75,3 +75,13 @@
     padding-left: 15%;
     
 }
+
+.cooking-steps-text {
+    list-style-type: none;
+    color: #3a3a3a;
+    font-family: Archivo;
+    text-align: left;
+    font-size: 150%;
+    padding-left: 15%;
+    
+}
