@@ -31,11 +31,8 @@
 /* for medium size screens 950px wide and down */
 @media screen and (max-width: 950px) {
 
-    #menu {
-        clear:left;
-        margin-left: 200px;
-        margin-bottom: 20px;
-        line-height:25px;
+    header {
+        text-align: center;
 
     }
 }
