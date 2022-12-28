@@ -29,6 +29,19 @@ h1 {
     font-size: 48px;
 }
 
+#plate-styles li {
+    display: inline-block;
+    width: 25%;
+    
+}
+
+#plate-styles img {
+    width: 100%;
+}
+
+#plate-styles ul {
+    display: flex;
+}
 
 
 
