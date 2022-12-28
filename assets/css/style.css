@@ -16,6 +16,13 @@ header {
 
 header li {
     display: inline-block;
+    font-size: 24px;
+    padding: 8px;
+}
+
+header a {
+    text-decoration: none;
+    color: #3a3a3a
 }
 
 
