@@ -1,5 +1,9 @@
 /* media queries */
-/* for large to medium screens from 1200px and down
+/* for large to medium screens from 1200px and down */
 @media screen and (max-width: 1200px) {
-
-} */
+    #all-recipes-background {
+    height: 350px;
+    width: 65%%;
+    margin-top: 3%;
+    }
+}
