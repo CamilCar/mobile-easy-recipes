@@ -8,7 +8,7 @@ body {
     padding: 0;
     border: 0;
 }
-
+/* navigation menu */
 header {
     padding: 8px;
 
@@ -29,14 +29,15 @@ h1 {
     font-size: 48px;
 }
 
+/* plate icons styling */ 
+
 #plate-styles li {
     display: inline-block;
     width: 25%;
-
 }
 
 #plate-styles img {
-    width: 100%;
+    width: 70%;
 }
 
 #plate-styles ul {
@@ -54,19 +55,18 @@ h1 {
 
 /* footer styles */
 
-/* title and nav styling */
 
 
 
 /* backgrounds and plate pictures */
 
-#home-background {
+#home-background { 
     overflow: hidden;
     height: 350px;
     width: 100%;
     margin-top: 2%;
-    background: url('../images/backgrounds/home-picture.jpg') no-repeat;
-    background-size: cover;
+    background: url('../images/backgrounds/home-picture.jpg') no-repeat; 
+    background-size: cover; 
 }
 
 #all-recipes-background {
@@ -106,28 +106,10 @@ h1 {
     background-size: contain;
 }
 
-/* size and position rules for plates */
-#food_plates {
-    width: 100%;
-    height: 100%;
-    padding-top: 2%;
-}
-
-.plate-styles {
-    height: 50%;
-    width: 25%;
-    text-align: center;
-    float: left;
-}
-
-.plate-styles h2 {
-    color: #fafafa;
-    padding: 8px;
-}
 
 /* footer style */
 .social-links {
-    
+
     font-weight: bold;
     height: 100px;
     margin-top: auto;
@@ -138,17 +120,17 @@ h1 {
 
 }
 
-footer  {
+footer {
     text-align: center;
 }
 
 .social-links li {
     display: inline-block;
-    
+
 }
 
 footer a {
-    color:#3a3a3a
+    color: #3a3a3a
 }
 
 #facebook {
@@ -156,7 +138,7 @@ footer a {
 }
 
 #twitter {
-    color: #1DA1F2; 
+    color: #1DA1F2;
 }
 
 #youtube {
