@@ -1,17 +1,5 @@
 /* media queries */
-
-/* for large to medium screens from 1200px and down */
+/* for large to medium screens from 1200px and down
 @media screen and (max-width: 1200px) {
-    #home-background {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
 
-    #menu {
-        padding: 65% 0;
-        margin: 0;
-    }
-
-    
-}
+} */
