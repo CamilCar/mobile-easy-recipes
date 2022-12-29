@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
 }
 /* navigation menu */
 header {
@@ -32,8 +33,9 @@ h1 {
 /* plate icons styling */ 
 
 #plate-styles li {
-    display: inline-block;
+    padding: 16px;
     width: 25%;
+    list-style: none;
 }
 
 #plate-styles img {
@@ -42,6 +44,8 @@ h1 {
 
 #plate-styles ul {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 #plate-styles h2 {
