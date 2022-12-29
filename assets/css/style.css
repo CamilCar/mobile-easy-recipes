@@ -299,3 +299,23 @@ footer a {
     background-color: #fafafa;
     color: #f16c6b;
 }
+
+#signup-thankyou-header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#signup-thankyou-header a {
+    text-decoration: none;
+}
+
+#return-home-button {
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
+    margin: 20px auto;
+}
