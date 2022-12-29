@@ -67,6 +67,9 @@ h1 {
     padding-bottom: 32px;
 }
 
+.recipe-heading-name {
+    padding-left: 8px;
+}
 #all-recipes li {
     padding: 16px;
     width: 33%;
@@ -85,6 +88,10 @@ h1 {
 
 }
 
+#recipe-ingredients  {
+    padding: 16px;
+    list-style-type: none;
+}
 #all-recipes h3 {
     
     text-align: center;
@@ -94,6 +101,9 @@ h1 {
     padding-bottom: 12px;
 }
 
+#recipe-ingredients h2 {
+    padding-left: 8px;
+}
 #all-recipes a {
     text-decoration: none;
 }
@@ -141,6 +151,33 @@ h1 {
     width: 100%;
     height: 100%;
     background-size: contain;
+}
+
+/* recipies styles */
+
+#recipe-wrapper {
+    padding: 8px;
+}
+
+#recipe-wrapper img {
+    width:100%;
+}
+
+#instructions-list li {
+    list-style-type: none;
+    padding: 16px;
+}
+
+#recipe-wrapper h2 {
+    padding-left: 8px;
+}
+
+#recipe-wrapper p {
+    padding: 8px;
+}
+
+#recipe-ingredients li {
+    padding: 2px;
 }
 
 /* footer style */
