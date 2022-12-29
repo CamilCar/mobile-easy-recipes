@@ -1,6 +1,6 @@
-/* for large screens 1200px and up */
+/* for large screens 1025px and up */
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width: 1025px) {
     #recipe-wrapper img {
         width: 50%;
         margin-left: auto;
@@ -24,12 +24,19 @@
     #garnish-description {
         margin-left: 60px;
     }
+
+    #recipe-description-wrapper {
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+    }
+
 }
 
 
 
-/* for large to medium screens from 1199px and down */
-@media screen and (max-width: 1199px) {
+/* for small screens and laptops between 769px to 1024px */
+@media screen and (min-width: 769px)  and (max-width: 1024px) {
 
     #all-recipes-background {
         background-position: none;
@@ -85,15 +92,21 @@
         margin-left: 40px;
     }
 
+    #recipe-description-wrapper {
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+    }
+
 }
 
 
-/* for medium size screens 950px wide and down */
-@media screen and (max-width: 950px) {
+/* for medium size screens between 481px to 768px wide  */
+@media screen and (min-width: 481px)  and (max-width: 768px) {
 
     #recipe-wrapper img {
         width: 100%;
-        
+
     }
 
     header {
@@ -118,21 +131,25 @@
         margin-left: 20px;
         margin-top: 20px;
     }
-    
+
     #recipe-ingredients {
         margin-left: 20px
     }
-    
+
     #instructions-list li {
         margin-left: 20px;
     }
-    
+
     #garnish-description {
         margin-left: 20px;
     }
 }
+
 /* for small mobile devices */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
+    header {
+        text-align: center;
+    }
     #plate-styles li {
         width: 64%;
     }
