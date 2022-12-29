@@ -1,6 +1,7 @@
 /* fonts */
 body {
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background: #e8e7e1;
 }
 
 * {
@@ -84,6 +85,7 @@ h1 {
 
 #all-recipes img {
     width: 70%;
+    border-radius: 0.25rem;
 }
 
 #all-recipes ul {
@@ -120,15 +122,6 @@ h1 {
     overflow: hidden;
     background: url('../images/backgrounds/home-picture.jpg') no-repeat;
     background-size: cover;
-}
-
-#all-recipes-background {
-    height: 350px;
-    width: 100%;
-    margin-top: 2.5%;
-    background: url('../images/backgrounds/all-recipes.jpg');
-    background-size: cover;
-    background-position: center;
 }
 
 #soups_img {
