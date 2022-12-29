@@ -9,10 +9,10 @@ body {
     border: 0;
     box-sizing: border-box;
 }
+
 /* navigation menu */
 header {
     padding: 8px;
-
 }
 
 header li {
@@ -30,7 +30,7 @@ h1 {
     font-size: 48px;
 }
 
-/* plate icons styling */ 
+/* plate icons styling */
 
 #plate-styles {
     padding-bottom: 32px;
@@ -62,12 +62,48 @@ h1 {
     text-decoration: none;
 }
 
+/* all recipes */ 
+#all-recipes {
+    padding-bottom: 32px;
+}
+
+#all-recipes li {
+    padding: 16px;
+    width: 33%;
+    list-style: none;
+}
+
+#all-recipes img {
+    width: 70%;
+}
+
+#all-recipes ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+#all-recipes h3 {
+    
+    text-align: center;
+    font-size: 32px;
+    color: #3a3a3a;
+    padding-top: 32px;
+    padding-bottom: 12px;
+}
+
+#all-recipes a {
+    text-decoration: none;
+}
+
 /* backgrounds and plate pictures */
 
-#home-background { 
+#home-background {
     overflow: hidden;
-    background: url('../images/backgrounds/home-picture.jpg') no-repeat; 
-    background-size: cover; 
+    background: url('../images/backgrounds/home-picture.jpg') no-repeat;
+    background-size: cover;
 }
 
 #all-recipes-background {
