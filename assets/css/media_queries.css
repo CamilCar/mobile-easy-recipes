@@ -36,6 +36,16 @@
     }
 
     #plate-styles ul {
-        text-align: center;
+        text-align: center; 
+        
+    }
+
+    #plate-styles ul {
+        display: inline;  
+        width: 49%;
+    }
+
+    .cooking-steps-text {
+        padding-left: 6%;
     }
 }

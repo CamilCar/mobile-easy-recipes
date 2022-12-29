@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,115 +8,105 @@
     <meta name="description" content="Simple recipe webbsite, our focus is to be mobile-friendly">
     <meta name="keywords" content="recipes, cooking, food">
 
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/recipes.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/recipes.css">
+    <link rel="stylesheet" href="/assets/css/media_queries.css">
     <title>Simple Recipes - Easy cooking</title>
 </head>
+
 <body>
     <header>
         <nav>
-        <ul id="menu">
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="recipes.html">All recipes</a>
-            </li>
-            <li>
-                <a href="signup.html">Sign Up</a>
-            </li>
-        </ul>
+            <ul id="menu">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="recipes.html">All recipes</a>
+                </li>
+                <li>
+                    <a href="signup.html">Sign Up</a>
+                </li>
+            </ul>
         </nav>
 
     </header>
-    <!-- code from another page, credit in README-->
-    <div id="chinese-soup-body" class="wrap-container">
-        <div id="page-wrapper" class="recipe-pages">
-            <div class="recipe-pages">
-                <main>
-                    <div class="recipe-pages-section recipe-headers">
-                        <div class="recipe-headers_wrapper-inner">
-                            <div class="recipe-headers_wrapper">
-                                <h1 class="recipe-headers_title">Chinese Tomato Soup</h1>
-                                    <p>With Chicken and Noodles</p>
-                                    <div class="recipe-image-wrapper">
-                                        <div id="chinese-soup-img" class="recipe-image-wrapper-inner"></div>
-                                    <!---->
-                                        <div class="bottom-col-wrapper">
-                                            <div class="ingredients-wrapper">
-                                                <div id="ingredients" class="ingredients-list">
-                                                    <div class="ingredients-list-heading">
-                                                        <h2 aria-label="5 food ingredients" class="section-heading-name">
-                                                            Ingredients
-                                                          </h2>
-                                                          <div class="ingredients-list-group">
-                                                            <ul id="chinese-soup-ingredients">
-                                                                <li>Noodles</li>
-                                                                <li>1 litre water</li>
-                                                                <li>2 cans chopped tomato</li>
-                                                                <li>2 chicken fillets</li>
-                                                                <li>2pcs chicken broth</li>
-                                                                <li>1 yellow onion</li>
-                                                                <li>1 green onions</li>
-                                                                <li>2 cloves of garlic</li>
-                                                                <li>6 tbsp sugar</li>
-                                                                <li>4 tbsp ketjap manis</li>
-                                                                <li>2 tbsp white whine vinegar</li>
-                                                                <li>1 tsp sambal</li>
-                                                                <li>1 tsp ginger</li>
-                                                                <li>2 tbsp cornstarch</li>
-                                                            </ul>
-                                                          </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="cooking-steps-wrapper">
-                                                <div id="instructions-wrapper">
-                                                    <h2 class="section-heading">Instructions:</h2>
-                                                    <div class="cooking-steps-text">
-                                                        <label>
-                                                            Heat up 1 lire of water with 2 chicken fillets, 2pcs chicken broth, 1 yellow onion and 2 cloves of garlic. Let it all boil slightly for 1-1.5 hour. <br>
-Take out the ingredients out of the water, save the water. Cut the chicken fillets in small pieces. <br>
-Add the 2 cans of mashed tomato to the water and heat it up again. <br>
-Mix together 6 tbsp sugar, 4 tbsp kejap, 2 tbsp white wine vinager, 1 tsp sambal and 1 tsp ginger in a bowl. Then add this while stirring the soup. <br>
-Mix 2 tbsp corn starch with 50ml cold water in a glass(important!cold water). Pour it into the soup while stirring. <br>
-Add the noodles and let the soup simmer for another 20 minutes. <br>
-Add the chicken to the soup when 15 minutes has passed. <br>
 
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+    <section>
+
+        <h1>Chinese Tomato Soup</h1>
+        <p>With Chicken and Noodles</p>
+        <div class="recipe-image-wrapper">
+            <img src="/assets/images/each-recipe-picture/chinese-soup.jpg" alt="Picture of two plates of soup">
+        </div>
+        <div class="bottom-col-wrapper">
+            <div class="ingredients-wrapper">
+                <div id="ingredients" class="ingredients-list">
+                    <div class="ingredients-list-heading">
+                        <h2 aria-label="5 food ingredients" class="section-heading-name">
+                            Ingredients
+                        </h2>
+                        <div class="ingredients-list-group">
+                            <ul id="chinese-soup-ingredients">
+                                <li>Noodles</li>
+                                <li>1 litre water</li>
+                                <li>2 cans chopped tomato</li>
+                                <li>2 chicken fillets</li>
+                                <li>2pcs chicken broth</li>
+                                <li>1 yellow onion</li>
+                                <li>1 green onions</li>
+                                <li>2 cloves of garlic</li>
+                                <li>6 tbsp sugar</li>
+                                <li>4 tbsp ketjap manis</li>
+                                <li>2 tbsp white whine vinegar</li>
+                                <li>1 tsp sambal</li>
+                                <li>1 tsp ginger</li>
+                                <li>2 tbsp cornstarch</li>
+                            </ul>
                         </div>
                     </div>
-                </main> 
+                </div>
             </div>
-        </div>  
-    </div>
-                                            
+            <div class="cooking-steps-wrapper">
+                <div id="instructions-wrapper">
+                    <h2>Instructions:</h2>
+                    <label>
+                        Heat up 1 lire of water with 2 chicken fillets, 2pcs chicken broth, 1 yellow onion
+                        and 2 cloves of garlic. Let it all simmer for 1-1.5 hour. <br>
+                        Take out the ingredients out of the water, save the water. Cut the chicken fillets
+                        in small pieces. <br>
+                        Add the 2 cans of mashed tomato to the water and heat it up again. <br>
+                        Mix together 6 tbsp sugar, 4 tbsp kejap, 2 tbsp white wine vinager, 1 tsp sambal and
+                        1 tsp ginger in a bowl. Then add this while stirring the soup. <br>
+                        Mix 2 tbsp corn starch with 50ml cold water in a glass(important!cold water). Pour
+                        it into the soup while stirring. <br>
+                        Add the noodles and let the soup simmer for another 20 minutes. <br>
+                        Add the chicken to the soup when 15 minutes has passed. <br>
 
-                                    
-    
+                    </label>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
     <footer>
         <ul class="social-links"> Follow Us!
             <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener"
+                <a id="facebook" href="https://facebook.com" target="_blank" rel="noopener"
                     aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
             </li>
             <li>
-                <a href="https://twitter.com" target="_blank" rel="noopener"
+                <a id="twitter" href="https://twitter.com" target="_blank" rel="noopener"
                     aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
             </li>
             <li>
-                <a href="https://youtube.com" target="_blank" rel="noopener"
+                <a id="youtube" href="https://youtube.com" target="_blank" rel="noopener"
                     aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
             </li>
             <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener"
+                <a id="instagram" href="https://instagram.com" target="_blank" rel="noopener"
                     aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
             </li>
         </ul>
@@ -125,4 +116,5 @@ Add the chicken to the soup when 15 minutes has passed. <br>
     <script src="https://kit.fontawesome.com/80bc2abb7e.js" crossorigin="anonymous"></script>
 
 </body>
+
 </html>
