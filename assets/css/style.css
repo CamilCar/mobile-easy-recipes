@@ -30,6 +30,12 @@ h1 {
     font-size: 48px;
 }
 
+#recipe-wrapper h1 {
+    padding: 8px;  
+    font-size: 37px;
+    text-align: center;
+}
+
 /* plate icons styling */
 
 #plate-styles {
@@ -161,6 +167,7 @@ h1 {
 
 #recipe-wrapper img {
     width:100%;
+    border-radius: 0.25rem;
 }
 
 #instructions-list li {
@@ -174,6 +181,7 @@ h1 {
 
 #recipe-wrapper p {
     padding: 8px;
+    text-align: center;
 }
 
 #recipe-ingredients li {

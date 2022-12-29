@@ -1,3 +1,11 @@
+/* for large screens 1200px and up */
+
+@media screen and (min-width:1200px) {
+#recipe-wrapper img {
+    width: 70%;
+    text-align: center;
+}
+}
 /* for large to medium screens from 1200px and down */
 @media screen and (max-width: 1200px) {
 
@@ -26,8 +34,8 @@
         width: 100%;
         margin: 0 auto;
     }
-
 }
+
 
 /* for medium size screens 950px wide and down */
 @media screen and (max-width: 950px) {
@@ -54,5 +62,9 @@
 @media screen and (max-width: 500px) {
     #plate-styles li {
         width: 64%;
+    }
+
+    #recipe-wrapper {
+        padding: 32px;
     }
 }
