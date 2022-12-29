@@ -1,13 +1,35 @@
 /* for large screens 1200px and up */
 
 @media screen and (min-width:1200px) {
-#recipe-wrapper img {
-    width: 70%;
-    text-align: center;
+    #recipe-wrapper img {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    #recipe-wrapper h2 {
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+
+    #recipe-ingredients {
+        margin-left: 60px
+    }
+
+    #instructions-list li {
+        margin-left: 60px;
+    }
+
+    #garnish-description {
+        margin-left: 60px;
+    }
 }
-}
-/* for large to medium screens from 1200px and down */
-@media screen and (max-width: 1200px) {
+
+
+
+/* for large to medium screens from 1199px and down */
+@media screen and (max-width: 1199px) {
 
     #all-recipes-background {
         background-position: none;
@@ -34,11 +56,45 @@
         width: 100%;
         margin: 0 auto;
     }
+
+    #recipe-wrapper img {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    #recipe-ingrediens {
+        margin-left: 40px;
+    }
+
+    #recipe-wrapper h2 {
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+
+    #recipe-ingredients {
+        margin-left: 40px
+    }
+
+    #instructions-list li {
+        margin-left: 40px;
+    }
+
+    #garnish-description {
+        margin-left: 40px;
+    }
+
 }
 
 
 /* for medium size screens 950px wide and down */
 @media screen and (max-width: 950px) {
+
+    #recipe-wrapper img {
+        width: 100%;
+        
+    }
 
     header {
         text-align: center;
@@ -57,14 +113,31 @@
     #all-recipes li {
         width: 50%;
     }
-}
 
+    #recipe-wrapper h2 {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    
+    #recipe-ingredients {
+        margin-left: 20px
+    }
+    
+    #instructions-list li {
+        margin-left: 20px;
+    }
+    
+    #garnish-description {
+        margin-left: 20px;
+    }
+}
+/* for small mobile devices */
 @media screen and (max-width: 500px) {
     #plate-styles li {
         width: 64%;
     }
 
     #recipe-wrapper {
-        padding: 32px;
+        padding: 16px;
     }
 }
