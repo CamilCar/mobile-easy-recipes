@@ -183,7 +183,9 @@ h1 {
 }
 
 /* footer style */
-.social-links {
+
+footer {
+    text-align: center;
     font-weight: bold;
     height: 100px;
     margin-top: auto;
@@ -191,10 +193,8 @@ h1 {
     color: #3a3a3a;
     font-size: 20px;
     padding: 16px;
-}
-
-footer {
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .social-links li {

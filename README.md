@@ -46,3 +46,37 @@ Using our mobile phones for finding and following recipes while cooking, is repl
 * Bugs
     * Solved
         * When first deploying project to GitHub, my site was not loading css files or links. Sollution was to remove the ="/ from all links in all files and on all href and src links. This was quickly solved with help of the good people of Stack Overflow. 
+
+Validator testing
+   * CSS
+        * No Errors were returned when passing through the offical (Jigsaw) validator
+* HTML 
+    * Error found
+
+* Accessibillity 
+    * I have tested that the colors and fonts chosen are easy to read and accessible, tested in lighthouse inside devtools and using an icognito tab. 
+
+![Image](lighthousetest.png)
+
+* Unfixed bugs
+    * No unfixed bugs
+
+## Deployment
+-------------------------
+
+* The site was deployed to GitHub pages by: 
+    * Navigating to the pages section.
+    * Choosing Main Branch from source section. 
+    * Once selected and saved, the branch was launched and after a short time and refresh of page, provided a message and a clickable button 'Visit page'.
+
+Link to live website is found here - https://camilcar.github.io/mobile-easy-recipes/index.html 
+
+## Credits
+-------------------------
+* The code for all social media links was taken from the CI Love Running Project. 
+* The code for signup form was based on the code from the CI Love Running Project. 
+
+Media 
+* All images used on site was taken from https://pexels.com 
+* Used photoshop to edit hero image on main page
+
