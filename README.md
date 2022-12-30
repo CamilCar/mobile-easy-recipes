@@ -46,12 +46,13 @@ Using our mobile phones for finding and following recipes while cooking, is repl
 * Bugs
     * Solved
         * When first deploying project to GitHub, my site was not loading css files or links. Sollution was to remove the ="/ from all links in all files and on all href and src links. This was quickly solved with help of the good people of Stack Overflow. 
+    * When first running code throught W3C validator i got an error caused by faulty syntax in the footer section. 
 
 Validator testing
    * CSS
         * No Errors were returned when passing through the offical (Jigsaw) validator
 * HTML 
-    * Error found
+    * First deploy, error was found at footer section. Now fixed and no errors were returned when passing through the official W3C validator. 
 
 * Accessibillity 
     * I have tested that the colors and fonts chosen are easy to read and accessible, tested in lighthouse inside devtools and using an icognito tab. 
@@ -75,8 +76,10 @@ Link to live website is found here - https://camilcar.github.io/mobile-easy-reci
 -------------------------
 * The code for all social media links was taken from the CI Love Running Project. 
 * The code for signup form was based on the code from the CI Love Running Project. 
+* Problems to code was solved thanks to my mentor, search results from Stack Overflow and the inspector in chrome tools. 
 
 Media 
 * All images used on site was taken from https://pexels.com 
 * Used photoshop to edit hero image on main page
 
+## Special thanks the people in our slack community for fast and helpful replies to issues during this project. 
