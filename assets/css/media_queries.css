@@ -1,5 +1,4 @@
 /* for large screens 1025px and up */
-
 @media screen and (min-width: 1025px) {
     #recipe-wrapper img {
         width: 50%;
@@ -37,10 +36,8 @@
 
 }
 
-
-
 /* for small screens and laptops between 769px to 1024px */
-@media screen and (min-width: 769px)  and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 
     #all-recipes li {
         width: 50%;
@@ -101,13 +98,11 @@
 
 }
 
-
 /* for medium size screens between 481px to 768px wide  */
-@media screen and (min-width: 481px)  and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
 
     #recipe-wrapper img {
         width: 100%;
-
     }
 
     header {
@@ -115,9 +110,7 @@
     }
 
     #plate-styles li {
-
         width: 50%;
-
     }
 
     .cooking-steps-text {
@@ -151,6 +144,7 @@
     header {
         text-align: center;
     }
+
     #plate-styles li {
         width: 64%;
     }

@@ -1,3 +1,3 @@
 ## Mobile Easy Recipes
-
-Using our mobile phones for finding and following recipes while cooking, is 
+----------------------------
+Using our mobile phones for finding and following recipes while cooking, is replacing recipe books. With this, there comes new issues however. Too many recipe websites are not mobile friendly, and often we find ourself scrolling up and down countless times between the ingredients section and instructions section. I said that one day I would make a mobile friendly webpage designed to be helpful in the kitchen. So here we are. Let me walk you through my design and potential features!

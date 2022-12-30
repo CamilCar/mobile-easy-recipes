@@ -32,13 +32,12 @@ h1 {
 }
 
 #recipe-wrapper h1 {
-    padding: 8px;  
+    padding: 8px;
     font-size: 37px;
     text-align: center;
 }
 
 /* plate icons styling */
-
 #plate-styles {
     padding-bottom: 32px;
 }
@@ -69,7 +68,7 @@ h1 {
     text-decoration: none;
 }
 
-/* all recipes */ 
+/* all recipes */
 #all-recipes {
     padding-bottom: 32px;
 }
@@ -77,6 +76,7 @@ h1 {
 .recipe-heading-name {
     padding-left: 8px;
 }
+
 #all-recipes li {
     padding: 16px;
     width: 33%;
@@ -93,15 +93,14 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
-
 }
 
-#recipe-ingredients  {
+#recipe-ingredients {
     padding: 16px;
     list-style-type: none;
 }
+
 #all-recipes h3 {
-    
     text-align: center;
     font-size: 32px;
     color: #3a3a3a;
@@ -112,12 +111,12 @@ h1 {
 #recipe-ingredients h2 {
     padding-left: 8px;
 }
+
 #all-recipes a {
     text-decoration: none;
 }
 
 /* backgrounds and plate pictures */
-
 #home-background {
     overflow: hidden;
     background: url('../images/backgrounds/home-picture.jpg') no-repeat;
@@ -153,7 +152,6 @@ h1 {
 }
 
 /* recipies styles */
-
 #recipe-wrapper {
     padding: 8px;
 }
@@ -161,8 +159,9 @@ h1 {
 #recipe-p {
     text-align: center;
 }
+
 #recipe-wrapper img {
-    width:100%;
+    width: 100%;
     border-radius: 0.25rem;
 }
 
@@ -177,8 +176,6 @@ h1 {
 
 #recipe-wrapper p {
     padding: 8px;
-    
-    
 }
 
 #recipe-ingredients li {
@@ -187,7 +184,6 @@ h1 {
 
 /* footer style */
 .social-links {
-
     font-weight: bold;
     height: 100px;
     margin-top: auto;
@@ -203,7 +199,6 @@ footer {
 
 .social-links li {
     display: inline-block;
-
 }
 
 footer a {
@@ -246,7 +241,6 @@ footer a {
 }
 
 /* sign up section */
-
 .form-section {
     clear: left;
     background: url('../images/backgrounds/sign-up.jpeg') no-repeat;
